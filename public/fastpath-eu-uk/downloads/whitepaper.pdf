@@ -1,0 +1,235 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R 4 0 R]
+/Count 2
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 5 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 8 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+>>
+endobj
+
+5 0 obj
+<<
+/Length 2800
+>>
+stream
+BT
+/F2 24 Tf
+72 720 Td
+(The Economics of Rapid Microbiology) Tj
+0 -30 Td
+/F1 14 Tf
+(A Cost-Benefit Analysis of 4-Hour vs 48-Hour QC Clearance) Tj
+0 -20 Td
+/F1 10 Tf
+(FastPath Diagnostics | Whitepaper) Tj
+0 -50 Td
+/F2 14 Tf
+(Executive Summary) Tj
+0 -20 Td
+/F1 11 Tf
+0 -15 Td
+(Traditional microbiology testing creates a 48-72 hour bottleneck in food production) Tj
+0 -15 Td
+(quality control. This hold period ties up inventory, consumes warehouse space, and) Tj
+0 -15 Td
+(increases spoilage risk. FastPath's 4-hour rapid testing technology eliminates this) Tj
+0 -15 Td
+(bottleneck, enabling same-day product release with significant financial benefits.) Tj
+0 -35 Td
+/F2 14 Tf
+(The Hidden Costs of Slow Testing) Tj
+0 -25 Td
+/F1 11 Tf
+(1. Inventory Carrying Costs) Tj
+0 -15 Td
+(   - Products held in QC quarantine represent tied-up working capital) Tj
+0 -15 Td
+(   - For a mid-size dairy: 5,000 units/day x $10/unit = $50,000/day in hold) Tj
+0 -15 Td
+(   - 72-hour hold = $150,000 constantly tied up in quarantine inventory) Tj
+0 -25 Td
+(2. Warehouse and Cold Storage) Tj
+0 -15 Td
+(   - Quarantine space costs $15-25 per pallet per day for refrigerated storage) Tj
+0 -15 Td
+(   - Additional labor for segregation, tracking, and movement) Tj
+0 -15 Td
+(   - Opportunity cost: space could be used for production or finished goods) Tj
+0 -25 Td
+(3. Spoilage and Shelf Life Impact) Tj
+0 -15 Td
+(   - Every day in hold is a day off the sellable shelf life) Tj
+0 -15 Td
+(   - Short-dated products command lower prices or face rejection) Tj
+0 -15 Td
+(   - Extended hold increases spoilage risk, especially for fresh products) Tj
+0 -35 Td
+/F2 14 Tf
+(ROI Calculation Framework) Tj
+0 -25 Td
+/F1 11 Tf
+(Monthly Savings = \(Daily Production x Unit Value x Hold Time Reduction\)) Tj
+0 -15 Td
+(                 + Warehouse Cost Savings) Tj
+0 -15 Td
+(                 + Spoilage Risk Reduction) Tj
+0 -15 Td
+(                 - Rapid Testing Cost Premium) Tj
+ET
+endstream
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+8 0 obj
+<<
+/Length 2400
+>>
+stream
+BT
+/F2 14 Tf
+72 720 Td
+(Case Study: Mid-Size Dairy Producer) Tj
+0 -25 Td
+/F1 11 Tf
+(Company Profile:) Tj
+0 -15 Td
+(   - Regional dairy processor, 5,000 units daily production) Tj
+0 -15 Td
+(   - Products: cheese, yogurt, flavored milk) Tj
+0 -15 Td
+(   - Previous testing: Traditional culture methods, 72-hour turnaround) Tj
+0 -30 Td
+(Before FastPath:) Tj
+0 -15 Td
+(   - $150,000 in inventory constantly held in QC quarantine) Tj
+0 -15 Td
+(   - 2,400 sq ft dedicated quarantine cold storage) Tj
+0 -15 Td
+(   - 3-4% product downgrade due to dating concerns) Tj
+0 -15 Td
+(   - Occasional missed delivery windows due to testing delays) Tj
+0 -30 Td
+(After FastPath Implementation:) Tj
+0 -15 Td
+(   - Same-day product release for morning production) Tj
+0 -15 Td
+(   - Quarantine inventory reduced to $20,000 \(87% reduction\)) Tj
+0 -15 Td
+(   - Quarantine space reduced to 400 sq ft) Tj
+0 -15 Td
+(   - Product downgrades eliminated) Tj
+0 -15 Td
+(   - Zero missed deliveries due to QC hold) Tj
+0 -30 Td
+(Financial Impact \(Monthly\):) Tj
+0 -15 Td
+(   - Working capital freed: $130,000) Tj
+0 -15 Td
+(   - Warehouse cost savings: $12,000) Tj
+0 -15 Td
+(   - Reduced downgrades: $8,000) Tj
+0 -15 Td
+(   - Rapid testing premium: -$5,000) Tj
+0 -15 Td
+(   - Net Monthly Benefit: $145,000+) Tj
+0 -50 Td
+/F2 14 Tf
+(Conclusion) Tj
+0 -25 Td
+/F1 11 Tf
+(Rapid microbiology testing delivers ROI that far exceeds its cost premium. For most) Tj
+0 -15 Td
+(food manufacturers, the working capital benefits alone justify the investment. When) Tj
+0 -15 Td
+(combined with warehouse savings, reduced spoilage, and improved customer service,) Tj
+0 -15 Td
+(4-hour testing becomes a competitive necessity rather than a luxury.) Tj
+0 -40 Td
+/F2 12 Tf
+(Ready to calculate ROI for your operation?) Tj
+0 -20 Td
+/F1 11 Tf
+(Request a pilot program at fastpathdiag.com/pilot-program) Tj
+0 -15 Td
+(or contact us at pilot@fastpathdiag.com) Tj
+0 -40 Td
+/F1 9 Tf
+(Copyright 2025 FastPath Diagnostics. All rights reserved.) Tj
+0 -12 Td
+(This document is for informational purposes only. Actual results may vary.) Tj
+ET
+endstream
+endobj
+
+xref
+0 9
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000270 00000 n
+0000000425 00000 n
+0000003278 00000 n
+0000003355 00000 n
+0000003437 00000 n
+
+trailer
+<<
+/Size 9
+/Root 1 0 R
+>>
+startxref
+5890
+%%EOF
