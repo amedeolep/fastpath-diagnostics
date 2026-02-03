@@ -16,78 +16,80 @@
     </script>
 </head>
 <body>
-    <!-- Utility Bar -->
-    <div class="utility-bar">
-        <div class="container utility-container">
-            <div class="utility-left">
-                <span>Europe &amp; United Kingdom</span>
-            </div>
-            <div class="utility-right">
-                <a href="../fastpath-usa/about.html">North America Site</a>
-                <a href="pilot-program.html#contact">Contact</a>
-            </div>
+    <!-- Top CTA Bar -->
+    <div class="top-cta-bar">
+        <div class="container">
+            <span class="cta-text">Join our pilot programme</span>
+            <form id="topbar-email-form">
+                <input type="email" placeholder="Work email" required>
+                <button type="submit" class="btn btn-white btn-sm">Request Pilot</button>
+            </form>
         </div>
     </div>
 
     <!-- Header -->
     <header class="header">
-        <div class="container header-container">
+        <div class="container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">&#9673;</span> FastPath Diagnostics
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="#1f3a5f" stroke-width="2"/>
+                    <path d="M12 20 L17 25 L28 14" stroke="#2f6f5e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="20" cy="20" r="12" stroke="#1f3a5f" stroke-width="1.5" stroke-dasharray="3 3"/>
+                </svg>
+                <span class="logo-text">FastPath Diagnostics</span>
             </a>
-            <nav class="main-nav" id="main-nav">
-                <div class="nav-item">
-                    <a href="solutions.html#industries" class="nav-link">Industries <span class="arrow">&#9660;</span></a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-section">
-                            <h4>Industries We Serve</h4>
-                            <div class="mega-menu-grid">
-                                <a href="solutions.html#dairy" class="mega-menu-link">Dairy Processing</a>
-                                <a href="solutions.html#beverages" class="mega-menu-link">Beverages</a>
-                                <a href="solutions.html#rte" class="mega-menu-link">Ready-to-Eat Foods</a>
-                                <a href="solutions.html#meat" class="mega-menu-link">Meat &amp; Poultry</a>
-                                <a href="solutions.html#seafood" class="mega-menu-link">Seafood</a>
-                                <a href="solutions.html#milling" class="mega-menu-link">Milling &amp; Baking</a>
-                                <a href="solutions.html#produce" class="mega-menu-link">Fresh Produce</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-item">
-                    <a href="solutions.html" class="nav-link">Solutions <span class="arrow">&#9660;</span></a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-section">
-                            <h4>Testing Solutions</h4>
-                            <div class="mega-menu-grid">
-                                <a href="solutions.html#pathogens" class="mega-menu-link">Pathogen Detection</a>
-                                <a href="solutions.html#environmental" class="mega-menu-link">Environmental Monitoring</a>
-                                <a href="solutions.html#rapid" class="mega-menu-link">Rapid Microbiology</a>
-                                <a href="solutions.html#sample-prep" class="mega-menu-link">Sample Preparation</a>
-                                <a href="solutions.html#sanitation" class="mega-menu-link">Sanitation Verification</a>
-                                <a href="solutions.html#water" class="mega-menu-link">Water Testing</a>
-                                <a href="solutions.html#allergens" class="mega-menu-link">Allergen Testing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-item">
-                    <a href="testing-services.html" class="nav-link">Testing</a>
-                </div>
-                <div class="nav-item">
-                    <a href="resources.html" class="nav-link">Resources</a>
-                </div>
-                <div class="nav-item">
-                    <a href="about.html" class="nav-link active">About</a>
-                </div>
-                <div class="nav-cta">
-                    <a href="pilot-program.html" class="btn btn-primary btn-sm">Pilot Programme</a>
-                </div>
-            </nav>
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMobileMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
+            <nav class="main-nav" id="main-nav">
+                <div class="nav-item">
+                    <a href="solutions.html#industries" class="nav-link">Industries <span class="arrow">▼</span></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-grid">
+                            <div class="mega-menu-col">
+                                <h4>Food & Beverage</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="solutions.html#dairy">Dairy</a></li>
+                                    <li><a href="solutions.html#beverages">Beverages</a></li>
+                                    <li><a href="solutions.html#rte">Ready-to-Eat Foods</a></li>
+                                    <li><a href="solutions.html#meat">Meat & Poultry</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Specialty</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="solutions.html#seafood">Seafood</a></li>
+                                    <li><a href="solutions.html#milling">Milling & Grain</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="solutions.html" class="nav-link">Solutions</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="technology.html" class="nav-link">Products</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="about.html" class="nav-link active">About</a>
+                </div>
+
+                <div class="nav-cta">
+                    <a href="pilot-program.html" class="btn btn-primary btn-sm">Request Pilot</a>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -172,40 +174,40 @@
                 <p class="section-subtitle">Experienced professionals in microbiology, food science, and diagnostics</p>
                 <div class="leadership-grid">
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
+                        <div class="leader-avatar">CEO</div>
                         <h3>Chief Executive Officer</h3>
                         <p class="leader-title">Ph.D., Microbiology</p>
-                        <p class="leader-bio">25+ years in diagnostic development and food safety. Former executive at a leading molecular diagnostics company. Led commercialisation of multiple CE-marked diagnostic platforms.</p>
+                        <p class="leader-bio">25+ years in diagnostic development and food safety. Former executive at a leading molecular diagnostics company.</p>
                     </div>
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
+                        <div class="leader-avatar">CSO</div>
                         <h3>Chief Scientific Officer</h3>
                         <p class="leader-title">Ph.D., Food Science</p>
-                        <p class="leader-bio">30+ years in rapid methods research. Author of 80+ peer-reviewed publications on microbiological detection. Former director of a university food safety research centre.</p>
+                        <p class="leader-bio">30+ years in rapid methods research. Author of 80+ peer-reviewed publications on microbiological detection.</p>
                     </div>
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
+                        <div class="leader-avatar">VP</div>
                         <h3>VP, Operations</h3>
                         <p class="leader-title">M.S., Industrial Engineering</p>
-                        <p class="leader-bio">20+ years in life sciences manufacturing. Experience scaling diagnostic production from pilot to high-volume commercial operations. Six Sigma Black Belt certified.</p>
+                        <p class="leader-bio">20+ years in life sciences manufacturing. Experience scaling diagnostic production from pilot to commercial operations.</p>
                     </div>
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
-                        <h3>VP, Quality &amp; Regulatory</h3>
+                        <div class="leader-avatar">VP</div>
+                        <h3>VP, Quality & Regulatory</h3>
                         <p class="leader-title">M.S., Regulatory Affairs</p>
-                        <p class="leader-bio">15+ years in regulated environments. Former quality director at a major food testing laboratory. Expert in ISO 17025 implementation and MicroVal/NordVal validation protocols.</p>
+                        <p class="leader-bio">15+ years in regulated testing environments. Expert in ISO 17025 implementation and MicroVal/NordVal validation protocols.</p>
                     </div>
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
+                        <div class="leader-avatar">VP</div>
                         <h3>VP, Commercial</h3>
                         <p class="leader-title">MBA</p>
-                        <p class="leader-bio">18+ years in food industry sales and marketing. Built and led commercial teams at two successful food safety diagnostics companies. Deep relationships across the food manufacturing sector.</p>
+                        <p class="leader-bio">18+ years in food industry sales and marketing. Deep relationships across the food manufacturing sector.</p>
                     </div>
                     <div class="leader-card">
-                        <div class="leader-photo">[Photo]</div>
+                        <div class="leader-avatar">Dir</div>
                         <h3>Director, Applications</h3>
                         <p class="leader-title">Ph.D., Microbiology</p>
-                        <p class="leader-bio">12+ years in method development and validation. Former technical manager at a contract food testing laboratory. Expert in matrix-specific method optimisation.</p>
+                        <p class="leader-bio">12+ years in method development and validation. Expert in matrix-specific method optimisation.</p>
                     </div>
                 </div>
             </div>
@@ -235,11 +237,11 @@
                     </div>
                     <div class="content-sidebar">
                         <div class="certification-card">
-                            <h4>Quality Standards</h4>
+                            <h4>Quality Framework</h4>
                             <ul>
                                 <li>ISO 17025 principles</li>
-                                <li>ISO 13485 compliant manufacturing</li>
-                                <li>CE marking for EU distribution</li>
+                                <li>Good Laboratory Practice</li>
+                                <li>Documented QMS</li>
                             </ul>
                         </div>
                         <div class="certification-card">
@@ -343,11 +345,6 @@
         </div>
     </footer>
 
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            document.getElementById('main-nav').classList.toggle('active');
-            this.classList.toggle('active');
-        });
-    </script>
+    <script src="fastpath.js"></script>
 </body>
 </html>

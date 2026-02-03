@@ -16,78 +16,80 @@
     </script>
 </head>
 <body>
-    <!-- Utility Bar -->
-    <div class="utility-bar">
-        <div class="container utility-container">
-            <div class="utility-left">
-                <span>North America</span>
-            </div>
-            <div class="utility-right">
-                <a href="../fastpath-eu-uk/technology.html">EU/UK Site</a>
-                <a href="pilot-program.html#contact">Contact</a>
-            </div>
+    <!-- Top CTA Bar -->
+    <div class="top-cta-bar">
+        <div class="container">
+            <span class="cta-text">Join our pilot program</span>
+            <form id="topbar-email-form">
+                <input type="email" placeholder="Work email" required>
+                <button type="submit" class="btn btn-white btn-sm">Request Pilot</button>
+            </form>
         </div>
     </div>
 
     <!-- Header -->
     <header class="header">
-        <div class="container header-container">
+        <div class="container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">◉</span> FastPath Diagnostics
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="#1f3a5f" stroke-width="2"/>
+                    <path d="M12 20 L17 25 L28 14" stroke="#2f6f5e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="20" cy="20" r="12" stroke="#1f3a5f" stroke-width="1.5" stroke-dasharray="3 3"/>
+                </svg>
+                <span class="logo-text">FastPath Diagnostics</span>
             </a>
-            <nav class="main-nav" id="main-nav">
-                <div class="nav-item">
-                    <a href="solutions.html#industries" class="nav-link">Industries <span class="arrow">▼</span></a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-section">
-                            <h4>Industries We Serve</h4>
-                            <div class="mega-menu-grid">
-                                <a href="solutions.html#dairy" class="mega-menu-link">Dairy Processing</a>
-                                <a href="solutions.html#beverages" class="mega-menu-link">Beverages</a>
-                                <a href="solutions.html#rte" class="mega-menu-link">Ready-to-Eat Foods</a>
-                                <a href="solutions.html#meat" class="mega-menu-link">Meat & Poultry</a>
-                                <a href="solutions.html#seafood" class="mega-menu-link">Seafood</a>
-                                <a href="solutions.html#milling" class="mega-menu-link">Milling & Baking</a>
-                                <a href="solutions.html#produce" class="mega-menu-link">Fresh Produce</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-item">
-                    <a href="solutions.html" class="nav-link">Solutions <span class="arrow">▼</span></a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-section">
-                            <h4>Testing Solutions</h4>
-                            <div class="mega-menu-grid">
-                                <a href="solutions.html#pathogens" class="mega-menu-link">Pathogen Detection</a>
-                                <a href="solutions.html#environmental" class="mega-menu-link">Environmental Monitoring</a>
-                                <a href="solutions.html#rapid" class="mega-menu-link">Rapid Microbiology</a>
-                                <a href="solutions.html#sample-prep" class="mega-menu-link">Sample Preparation</a>
-                                <a href="solutions.html#sanitation" class="mega-menu-link">Sanitation Verification</a>
-                                <a href="solutions.html#water" class="mega-menu-link">Water Testing</a>
-                                <a href="solutions.html#allergens" class="mega-menu-link">Allergen Testing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-item">
-                    <a href="testing-services.html" class="nav-link">Testing</a>
-                </div>
-                <div class="nav-item">
-                    <a href="resources.html" class="nav-link">Resources</a>
-                </div>
-                <div class="nav-item">
-                    <a href="about.html" class="nav-link">About</a>
-                </div>
-                <div class="nav-cta">
-                    <a href="pilot-program.html" class="btn btn-primary btn-sm">Pilot Program</a>
-                </div>
-            </nav>
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMobileMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
+            <nav class="main-nav" id="main-nav">
+                <div class="nav-item">
+                    <a href="solutions.html#industries" class="nav-link">Industries <span class="arrow">▼</span></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-grid">
+                            <div class="mega-menu-col">
+                                <h4>Food & Beverage</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="solutions.html#dairy">Dairy</a></li>
+                                    <li><a href="solutions.html#beverages">Beverages</a></li>
+                                    <li><a href="solutions.html#rte">Ready-to-Eat Foods</a></li>
+                                    <li><a href="solutions.html#meat">Meat & Poultry</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Specialty</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="solutions.html#seafood">Seafood</a></li>
+                                    <li><a href="solutions.html#milling">Milling & Grain</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="solutions.html" class="nav-link">Solutions</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="technology.html" class="nav-link active">Products</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </div>
+
+                <div class="nav-cta">
+                    <a href="pilot-program.html" class="btn btn-primary btn-sm">Request Pilot</a>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -238,26 +240,26 @@
             </div>
         </section>
 
-        <!-- Compliance Section -->
+        <!-- Validation Section -->
         <section class="section section-alt">
             <div class="container">
-                <h2 class="section-title">Designed for Regulatory Compliance</h2>
-                <p class="section-subtitle">Built to meet the rigorous standards of the food safety industry</p>
+                <h2 class="section-title">Designed for Validation and Regulatory Alignment</h2>
+                <p class="section-subtitle">Built to support your quality and compliance workflows</p>
 
                 <div class="info-grid info-grid-3">
                     <div class="info-card">
-                        <h3>ISO 17025 Aligned</h3>
-                        <p>Our platform is designed to meet the requirements of ISO 17025, the international standard for testing and calibration laboratories. Quality management features support accreditation efforts.</p>
+                        <h3>ISO 17025 Principles</h3>
+                        <p>Our platform incorporates quality management features aligned with ISO 17025 principles to support laboratories seeking or maintaining accreditation.</p>
                     </div>
 
                     <div class="info-card">
-                        <h3>FDA BAM & AOAC Methods</h3>
-                        <p>Detection methods are validated against FDA Bacteriological Analytical Manual reference procedures and designed to meet AOAC validation guidelines for alternative methods.</p>
+                        <h3>Reference Method Alignment</h3>
+                        <p>Detection methods are designed for comparison against FDA BAM reference procedures. We provide validation documentation to support AOAC evaluation processes.</p>
                     </div>
 
                     <div class="info-card">
-                        <h3>Comprehensive Validation</h3>
-                        <p>Method validation includes inclusivity/exclusivity testing, matrix validation across food types, ruggedness testing, and sensitivity/specificity determination per industry standards.</p>
+                        <h3>Validation Support</h3>
+                        <p>We provide inclusivity/exclusivity data, matrix-specific validation studies, and ruggedness testing documentation to support your internal validation requirements.</p>
                     </div>
                 </div>
             </div>
@@ -432,11 +434,6 @@
         </div>
     </footer>
 
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            document.getElementById('main-nav').classList.toggle('active');
-            this.classList.toggle('active');
-        });
-    </script>
+    <script src="fastpath.js"></script>
 </body>
 </html>
